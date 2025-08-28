@@ -1,0 +1,218 @@
+import { defineStore } from 'pinia'
+import { ref } from 'vue'
+import type { Certificate, CertificateCreate, CertificateUpdate, PaginatedResponse } from '@/types'
+import apiService from '@/services/api'
+
+export const useCertificatesStore = defineStore('certificates', () => {
+  // State
+  const certificates = ref<Certificate[]>([])
+  const currentCertificate = ref<Certificate | null>(null)
+  const isLoading = ref(false)
+  const isUploading = ref(false)
+  const uploadProgress = ref(0)
+  const totalCertificates = ref(0)
+  const currentPage = ref(1)
+  const pageSize = ref(20)
+
+  // Actions
+  const fetchCertificates = async (page = 1, size = 20, search?: string): Promise<void> => {
+    try {
+      isLoading.value = true
+      const params = new URLSearchParams({
+        skip: ((page - 1) * size).toString(),
+        limit: size.toString(),
+      })
+      
+      if (search) {
+        params.append('search', search)
+      }
+
+      const response = await apiService.get<{certificates: Certificate[], total: number, skip: number, limit: number}>(`/api/certificates?${params}`)
+      
+      certificates.value = response.certificates
+      totalCertificates.value = response.total
+      currentPage.value = page
+      pageSize.value = size
+    } catch (error) {
+      console.error('Failed to fetch certificates:', error)
+      throw error
+    } finally {
+      isLoading.value = false
+    }
+  }
+
+  const fetchCertificate = async (certificateId: number): Promise<Certificate> => {
+    try {
+      const certificate = await apiService.get<Certificate>(`/api/certificates/${certificateId}`)
+      currentCertificate.value = certificate
+      return certificate
+    } catch (error) {
+      console.error('Failed to fetch certificate:', error)
+      throw error
+    }
+  }
+
+  const uploadCertificate = async (file: File, uploadData: any): Promise<any> => {
+    try {
+      isUploading.value = true
+      uploadProgress.value = 0
+
+      // Create FormData for file upload
+      const formData = new FormData()
+      formData.append('file', file)
+      formData.append('name', uploadData.name)
+      formData.append('certificate_id', uploadData.certificate_id.toString())
+      formData.append('file_type', uploadData.file_type)
+      if (uploadData.description) {
+        formData.append('description', uploadData.description)
+      }
+
+      // Use the real PDF upload endpoint
+      const response = await fetch('/api/upload/pdf', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('access_token')}`
+        }
+      })
+
+      if (!response.ok) {
+        const errorText = await response.text()
+        throw new Error(errorText)
+      }
+
+      const result = await response.json()
+      uploadProgress.value = 100
+      
+      return result
+    } catch (error) {
+      console.error('Failed to upload certificate:', error)
+      throw error
+    } finally {
+      isUploading.value = false
+      uploadProgress.value = 0
+    }
+  }
+
+  const updateCertificate = async (certificateId: number, data: CertificateUpdate): Promise<Certificate> => {
+    try {
+      const updatedCertificate = await apiService.put<Certificate>(`/api/certificates/${certificateId}`, data)
+      
+      const index = certificates.value.findIndex(c => c.id === certificateId)
+      if (index !== -1) {
+        certificates.value[index] = updatedCertificate
+      }
+      
+      if (currentCertificate.value?.id === certificateId) {
+        currentCertificate.value = updatedCertificate
+      }
+      
+      return updatedCertificate
+    } catch (error) {
+      console.error('Failed to update certificate:', error)
+      throw error
+    }
+  }
+
+  const deleteCertificate = async (certificateId: number): Promise<void> => {
+    try {
+      await apiService.delete(`/api/certificates/${certificateId}`)
+      
+      certificates.value = certificates.value.filter(c => c.id !== certificateId)
+      totalCertificates.value -= 1
+      
+      if (currentCertificate.value?.id === certificateId) {
+        currentCertificate.value = null
+      }
+    } catch (error) {
+      console.error('Failed to delete certificate:', error)
+      throw error
+    }
+  }
+
+  const processCertificate = async (certificateId: number): Promise<void> => {
+    try {
+      await apiService.post(`/api/certificates/${certificateId}/process`)
+      
+      // Refresh the certificate data
+      await fetchCertificate(certificateId)
+    } catch (error) {
+      console.error('Failed to process certificate:', error)
+      throw error
+    }
+  }
+
+  const downloadCertificate = async (certificateId: number): Promise<void> => {
+    try {
+      const response = await apiService.get(`/api/certificates/${certificateId}/download`, {
+        responseType: 'blob',
+      })
+      
+      // Create download link
+      const blob = new Blob([response])
+      const url = window.URL.createObjectURL(blob)
+      const link = document.createElement('a')
+      link.href = url
+      
+      // Get certificate name for filename
+      const certificate = certificates.value.find(c => c.id === certificateId)
+      link.download = certificate?.name || `certificate-${certificateId}.pdf`
+      
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      window.URL.revokeObjectURL(url)
+    } catch (error) {
+      console.error('Failed to download certificate:', error)
+      throw error
+    }
+  }
+
+  const clearCurrentCertificate = (): void => {
+    currentCertificate.value = null
+  }
+
+  const fetchUploadedFiles = async (): Promise<any[]> => {
+    try {
+      const response = await apiService.get<{files: any[], total: number}>('/api/upload/files')
+      return response.files
+    } catch (error) {
+      console.error('Failed to fetch uploaded files:', error)
+      throw error
+    }
+  }
+
+  const fetchCertificatesInfo = async (): Promise<any[]> => {
+    try {
+      const response = await apiService.get<{certificates: any[]}>('/api/certificates-info')
+      return response.certificates
+    } catch (error) {
+      console.error('Failed to fetch certificates info:', error)
+      throw error
+    }
+  }
+
+  return {
+    // State
+    certificates: readonly(certificates),
+    currentCertificate: readonly(currentCertificate),
+    isLoading: readonly(isLoading),
+    isUploading: readonly(isUploading),
+    uploadProgress: readonly(uploadProgress),
+    totalCertificates: readonly(totalCertificates),
+    currentPage: readonly(currentPage),
+    pageSize: readonly(pageSize),
+    
+    // Actions
+    fetchCertificates,
+    fetchCertificate,
+    uploadCertificate,
+    updateCertificate,
+    deleteCertificate,
+    processCertificate,
+    downloadCertificate,
+    clearCurrentCertificate,
+    fetchUploadedFiles,
+    fetchCertificatesInfo,
+  }
+})

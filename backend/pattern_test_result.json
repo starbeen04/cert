@@ -1,0 +1,50 @@
+[
+  {
+    "question_number": 1,
+    "passage": null,
+    "question_text": "다음 그래프에서 차수(Degree)가 홀수인 정점의 개수는?",
+    "options": [
+      "1개",
+      "2개",
+      "3개",
+      "4개"
+    ],
+    "page_range": "1-1"
+  },
+  {
+    "question_number": 2,
+    "passage": "#include <stdio.h>\nint main() {",
+    "question_text": "다음 프로그램을 실행한 결과는?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "page_range": "1-1"
+  },
+  {
+    "question_number": 3,
+    "passage": null,
+    "question_text": "데이터베이스에서 정규화(Normalization)의 목적으로 옳은 것은?",
+    "options": [
+      "① 데이터 중복 제거",
+      "② 저장공간 절약",
+      "③ 데이터 무결성 보장",
+      "④ 모든 것이 옳다"
+    ],
+    "page_range": "1-1"
+  },
+  {
+    "question_number": 4,
+    "passage": null,
+    "question_text": "다음 SQL문에서 DISTINCT 키워드의 역할은?",
+    "options": [
+      "① 중복된 행 제거",
+      "② 정렬 수행",
+      "③ 그룹화 수행",
+      "④ 조건 검색"
+    ],
+    "page_range": "1-1"
+  }
+]

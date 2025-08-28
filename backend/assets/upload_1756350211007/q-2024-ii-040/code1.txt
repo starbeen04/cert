@@ -1,0 +1,7 @@
+public class Question40 {
+    public static void main(String[] args) {
+        // Java 코드 블록 40번
+        int result = 0;
+        System.out.println(result);
+    }
+}

@@ -1,0 +1,117 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1500
+>>
+stream
+BT
+/F1 12 Tf
+50 700 Td
+(정보처리기사 문제집 테스트) Tj
+0 -20 Td
+(1. 다음 중 데이터베이스의 특징이 아닌 것은?) Tj
+0 -15 Td
+(① 데이터의 독립성) Tj
+0 -15 Td
+(② 데이터의 무결성) Tj  
+0 -15 Td
+(③ 데이터의 중복성) Tj
+0 -15 Td
+(④ 데이터의 보안성) Tj
+0 -15 Td
+(정답: ③) Tj
+0 -30 Td
+
+(2. SQL에서 테이블을 생성하는 명령어는?) Tj
+0 -15 Td
+(① CREATE TABLE) Tj
+0 -15 Td
+(② MAKE TABLE) Tj
+0 -15 Td
+(③ BUILD TABLE) Tj
+0 -15 Td
+(④ NEW TABLE) Tj
+0 -15 Td
+(정답: ①) Tj
+0 -30 Td
+
+(3. 다음 중 정규화의 목적이 아닌 것은?) Tj
+0 -15 Td
+(① 데이터 중복 제거) Tj
+0 -15 Td
+(② 갱신 이상 방지) Tj
+0 -15 Td
+(③ 삽입 이상 방지) Tj
+0 -15 Td
+(④ 검색 속도 향상) Tj
+0 -15 Td
+(정답: ④) Tj
+0 -30 Td
+
+(4. DBMS의 기능에 해당하지 않는 것은?) Tj
+0 -15 Td
+(① 정의 기능) Tj
+0 -15 Td
+(② 조작 기능) Tj
+0 -15 Td
+(③ 제어 기능) Tj
+0 -15 Td
+(④ 컴파일 기능) Tj
+0 -15 Td
+(정답: ④) Tj
+0 -30 Td
+
+(5. 관계형 데이터베이스에서 기본키의 특성은?) Tj
+0 -15 Td
+(① NULL 값을 가질 수 있다) Tj
+0 -15 Td
+(② 중복된 값을 가질 수 있다) Tj
+0 -15 Td
+(③ 테이블당 여러 개 존재할 수 있다) Tj
+0 -15 Td
+(④ 각 행을 유일하게 식별한다) Tj
+0 -15 Td
+(정답: ④) Tj
+ET
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000209 00000 n 
+trailer
+<<
+/Size 5
+/Root 1 0 R
+>>
+startxref
+1760
+%%EOF

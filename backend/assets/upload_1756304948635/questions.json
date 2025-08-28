@@ -1,0 +1,2465 @@
+[
+  {
+    "qid": "q-2024-ii-001",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 1,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "행위 다이어그램의 종류 중 다음 설명에 해당하는 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "상태 다이어그램(State Diagram)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "순차 다이어그램(Sequence Diagram)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "객체 다이어그램(Object Diagram)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "유스케이스 다이어그램(Use Case Diagram)"
+      }
+    ],
+    "passages": [
+      {
+        "type": "text",
+        "content": "하나의 객체가 자신의 속한 클래스의 상태 변화를 혹은 다른 객체들의 상태 조건에 따라 상태가 어떻게 변화하는지를 표현한다. \n림바우(Rumbaugh) 객체지향 분석 기법에서 동적 모델링에 활용된다."
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-002",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 2,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "애자일 개발 방법론에 해당하지 않는 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "기능 주도 개발(FDD, Feature Driven Development)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "하둡(Hadoop)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "스크럼(Scrum)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "익스트림 프로그래밍(XP, Extreme Programming)"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-003",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 3,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다이어그램에 대한 설명으로 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "활동 다이어그램(Activity Diagram) : 시스템이 어떤 기능을 수행하기 위해 객체나 프로세스가 조직에 따라 작업의 흐름과 순서에 따라 표현된다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "시퀀스 다이어그램(Sequence Diagram) : 상호작용하는 시스템이나 객체들이 주고받는 메시지를 표현한다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "유스케이스 다이어그램(Use Case Diagram) : 사용자의 요구를 분석하는 것으로 기능 모델링 작업에 사용한다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "객체 다이어그램(Object Diagram) : 클래스와 오브젝트가 가지는 속성, 클래스 사이의 관계를 표현한다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-004",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 4,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 검사에 기법 중 종류가 다른 하나는 무엇인가?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "원인 결과 그래픽 기법(Cause-effect Graphingtesting)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "동등 분할 검사(Equivalence Partitioning Testing)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "데이터 흐름 검사(Data Flow Testing)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "비교 검사(Comparison Testing)"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-005",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 5,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "개발 단계에 따른 애플리케이션 테스트에 속하지 않는 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "통합 테스트"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "단위 테스트"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "구조 테스트"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "인수 테스트"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-006",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 6,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 표와 같이 작업이 제출되었다. 이를 FIFO 정책으로 스케줄링하면 평균 반환 시간은 얼마인가?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "3"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "7.2"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "8"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "9.4"
+      }
+    ],
+    "passages": [
+      {
+        "type": "text",
+        "content": "프로세스 | 도착시간 | 실행시간\nP1 | 0 | 3\nP2 | 1 | 7\nP3 | 2 | 2\nP4 | 5 | 5\nP5 | 6 | 3"
+      },
+      {
+        "type": "table",
+        "src": "assets\\upload_1756304948635\\q-2024-ii-006\\tbl1.csv",
+        "description": "FCFS 스케줄링 표"
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": true,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-007",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 7,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "Process의 3가지 상태에 해당하지 않는 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "Ready"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "Running"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "Block"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "Indexing"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-008",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 8,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "네트워크 관련 설명에 대한 설명으로 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "SCO : 하나의 시스템에서 인접이 성공하면 다른 시스템에 대한 접근 권한도 얻는 시스템이다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "PICONET : 여러 개의 독립 통신장치가 UWB 기술 또는 블루투스 기술을 사용하여 통신망을 형성하는 무선 네트워크 기술이다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "PaaS-TA : 전기의 생산자나 소비자가 전 과정이 정보통신 기술을 통해 에너지 효율성을 높이는 지능형 전력망 시스템 기술이다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "Mesh Network : 자체에 이동통신, 유비쿼터시, 공공망과 등의 특수 목적에 사용하는 새로운 방식의 네트워크 기술이다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-009",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 9,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "공통된 속성과 연산을 갖는 객체의 집합으로, 객체의 일반적인 타입(Type)을 의미하는 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "객체(Object)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "캡슐화(Encapsulation)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "클래스(Class)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "상속(Inheritance)"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-010",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 10,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 괄호에 들어갈 알맞은 용어는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "사설 클래스"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "추상 클래스"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "공용 클래스"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "공용 속성"
+      }
+    ],
+    "passages": [
+      {
+        "type": "text",
+        "content": "( )는 구체 클래스에서 구현하려는 기능들의 공통점만을 모은 것으로, 인스턴스 생성이 불가능하여 구체 클래스가 상속 상속받아 구체화한 후 구체 클래스의 인스턴스를 생성하는 방식으로 사용한다."
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-011",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 11,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "모듈 결합도의 종류 중 스탬프 결합도(Stamp Coupling)에 대한 설명으로 틀린 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "모듈 간의 인터페이스로 배열이나 레코드 등의 자료 구조가 전달될 때 결합도이다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "전달된 정보가 자료 결합보다 강하고, 제어 결합보다 약하다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-012",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 12,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "디스크 대기 큐에 다음과 같은 순서(왼쪽부터 먼저 도착한 순서임)로 트랙의 액세스 요청이 대기 중이다. 모든 트랙을 서보하기 위하여 FCFS 스케줄링 기법이 사용되었을 때, 모두 몇 트랙의 헤드 이동이 생기는가? (단, 현재 헤드의 위치는 50 트랙이다.)"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "50"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "85"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "105"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "110"
+      }
+    ],
+    "passages": [
+      {
+        "type": "text",
+        "content": "디스크 대기 큐 : 10, 40, 55, 35"
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-013",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 13,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "데이터 전송에서 한 문자의 전송 시작과 스타트 비트를 삽입하여 전송하는 방식은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "동기식"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "비동기식"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "동기식"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "비동기식"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-014",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 14,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "객체 지향 기법에서 객체가 메시지를 받아 실행해야 할 때 객체의 구체적인 연산을 정의한 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "Instance"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "Method"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "Message"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "Class"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-015",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 15,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "개체-관계(E-R) 모델에서 개체 타입을 표시하는 기호는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "image",
+        "content": "타원",
+        "src": "assets\\upload_1756304948635\\q-2024-ii-015\\c1.png"
+      },
+      {
+        "no": 2,
+        "type": "image",
+        "content": "사각형",
+        "src": "assets\\upload_1756304948635\\q-2024-ii-015\\c2.png"
+      },
+      {
+        "no": 3,
+        "type": "image",
+        "content": "마름모",
+        "src": "assets\\upload_1756304948635\\q-2024-ii-015\\c3.png"
+      },
+      {
+        "no": 4,
+        "type": "image",
+        "content": "삼각형",
+        "src": "assets\\upload_1756304948635\\q-2024-ii-015\\c4.png"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": true,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-016",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 16,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "오픈 소스 기반 분산 컴퓨팅 플랫폼인 아파치 하둡(Apache Hadoop) 기반의 분산 데이터 웨어하우스 프로젝트를 의미하는 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "비이더(Big Data Mining)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "맵리듀스(MapReduce)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "스쿱(Sqoop)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "타조(Tajo)"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-017",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 17,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "기존에 구현되어 있는 클래스에 기능 변경 시 기존 클래스를 재사용할 수 있도록 중간에서 맞춰주는 역할을 하는 디자인 패턴은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "브리지(Bridge)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "데코레이터(Decorator)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "어댑터(Adapter)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "파사드(Facade)"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-018",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 18,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "OSI 7계층 중 종단 호스트 사이의 데이터 전송을 다루는 계층으로 종단 간의 연결 관리, 오류제어와 흐름제어 등을 수행하는 계층은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "물리 계층"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "프레젠테이션 계층"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "응용 계층"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "전송 계층"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-019",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 19,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "HIPOO의 3가지 패키지가 아닌 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "도식목차(Visual Table of Contents)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "순서도(Flowchart)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "개요도(Overview Diagram)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "상세도(Detail Diagram)"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-020",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 20,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "형상 관리(SCM)에 대한 설명으로 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "형상 관리는 소프트웨어의 개발 과정에서 소프트웨어의 변경 사항을 관리하는 것이다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "형상 관리의 기능에는 형상 식별, 변경 제어, 형상 통제 등이 있다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "형상 관리의 관리 항목에는 프로젝트 개발 비용, 프로젝트 요구 분석서 등이 있다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "대표적인 형상 관리 도구에는 Git, CVS, Subversion 등이 있다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-021",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 21,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "프레임워크(Framework)의 특성과 가장 거리가 먼 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "모듈성(Modularity)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "인증(Authentication)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "재사용성(Reusability)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "확장성(Extensibility)"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-022",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 22,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "프레임워크의 특성에 대한 설명으로 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "프레임워크는 재사용 가능한 모듈들로 구성되어 있어 생산 절차, 생산성 향상, 품질 보증이 가능하다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "프레임워크는 단일성을 통한 인터페이스의 일관성이 강화되어 다양한 협력의 기능을 가진 애플리케이션 개발이 가능하다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "프레임워크는 기본적으로 여러 모듈들로 인해 유지 보수가 어렵다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "개발자가 관리하고 통제해야 하는 객체들의 제어를 프레임워크에 넘김으로써 생산성을 향상시킨다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-023",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 23,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "Module의 독립성을 높이려면 Coupling과 Cohesion은 어떤 관계가 되어야 하는가?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "Coupling과 Cohesion 모두 약해야 한다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "Coupling과 Cohesion 모두 강해야 한다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "Coupling은 강하고 Cohesion은 약해야 한다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "Coupling은 약하고 Cohesion은 강해야 한다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-024",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 24,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 Java 프로그램이 실행되었을 때, 실행 결과는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "1"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "2"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "3"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "4"
+      }
+    ],
+    "passages": [
+      {
+        "type": "text",
+        "content": "public class Test {\n    public static void main(String[] args) {\n        int n = 17;\n        n = n - 2;\n        n = n / 3;\n        n = 4;\n        n %= 5;\n        System.out.println(n);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "src": "assets\\upload_1756304948635\\q-2024-ii-024\\code1.txt",
+        "language": "java"
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": true,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-025",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 25,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "조건이 참인지 거짓인지 판단하고자 할 때 사용하는 데이터 타입은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "Integer Type"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "Boolean Type"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "Character String Type"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "Floating Point Type"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-026",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 26,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "캡슐화, 추상화, 상속성 등의 특징을 갖는 객체지향 언어로?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "C"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "C++"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "COBOL"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "FORTRAN"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-027",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 27,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "공통 도메인 대한 명세 기반 중 기능에 대한 요구사항의 출처, 관련 시스템 등의 관계를 파악할 수 있도록 작성하는 설계문은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "추상성"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "명확성"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "일관성"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "일반성"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-028",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 28,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 C 언어의 함수 중 인수를 주어진 한 문자로 화면에 출력하는 함수는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "gets()"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "getchar()"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "puts()"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "putchar()"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-029",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 29,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "파일 포인터 변수가 가리키는 위치에서 데이터를 가져와 변수에 저장하는 함수는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "fscanf"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "fprintf"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "fopen"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "fclose"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-030",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 30,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 중 빌드 도구가 아닌 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "Zeplin"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "Ant"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "Maven"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "Gradle"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-031",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 31,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "객체지향 프로그래밍 언어에 대한 설명으로 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "추상화(Abstraction)는 다른 객체에게 자신의 정보를 숨기고 자신의 연산만을 통하여 접근을 허용하는 것이다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "클래스(Class)는 두 개 이상의 속성과 연산으로 이루어진 하나의 공통된 특성을 표현하는 요소이다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "캡슐화(Encapsulation)는 데이터(속성)와 데이터를 처리하는 함수를 하나로 묶는 것을 의미한다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "계승(Inheritance)는 데이터(속성)의 이름을 처리하기 위한 연산(메소드)을 결합시킨 설계이다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-032",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 32,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "웹 서버(Web Server)의 기능 중 하나로, 네트워크 트래픽의 포화를 방지하기 위해 응답 속도를 제어하는 기능은 무엇이라 하는가?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "HTTP/HTTPS"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "정적 파일 관리"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "압축 처럼"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "가상 호스팅"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-033",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 33,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음은 Java로 만들어진 반복문 코드이다. 이 코드의 결과는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "a = 0, sum = 0"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "a = 1, sum = 1"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "a = 9, sum = 45"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "a = 10, sum = 55"
+      }
+    ],
+    "passages": [
+      {
+        "type": "text",
+        "content": "..생략..\nint a = 0, sum = 0;\ndo {\n  a++;\n  sum += a;\n} while(a > 10);\n..생략.."
+      },
+      {
+        "type": "code",
+        "src": "assets\\upload_1756304948635\\q-2024-ii-033\\code1.txt",
+        "language": "java"
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": true,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-034",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 34,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "원리와 처리 절차를 정해진 문법에 따라 순서대로 기술해 나가는 언어는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "체계적 프로그래밍 언어"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "스크립트 언어"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "구조적 프로그래밍 언어"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "절차적 프로그래밍 언어"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-035",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 35,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 중 스크립트 언어에 대한 설명으로 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "기본 사전이 작다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "고급언어가 아니다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "런타임 오류가 많이 발생한다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "실행 속도가 빠르다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-036",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 36,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 중 C언어의 변수의 작성에 대한 설명으로 가장 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "소문자로 구분하지 않는다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "공백, 숫자, 연산자 등을 사용할 수 있다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "중복된 이름이 있다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "예약어는 변수명으로 사용할 수 없다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-037",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 37,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "기억 클래스(Storage Class)의 종류 중 함수나 코드의 범위를 한정하는 블록 내에서 선언되는 변수는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "외부 변수(External Variable)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "정적 변수(Static Variable)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "자동 변수(Automatic Variable)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "레지스터 변수(Register Variable)"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-038",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 38,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "C 언어 라이브러리 중 stdlib.h에 대한 설명으로 옳은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "문자열을 다루는 데이터, 반대로 문자열을 변환하거나 수치를 문자로\n  변환하거나 하는 함수들이 있다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "문자열 처리 함수로 strlen()이 포함되어 있다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "표준 입출력 라이브러리이다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "산술 함수, 제곱근, 지수 등 수학적인 함수를 제공하고 있다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-039",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 39,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "N-S(Nassi-Schneiderman) chart에 대한 설명으로 거리가 먼 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "논리의 기술에 중점을 둔 도형적 표현 방법이다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "연산, 선택 및 반복 제어 등의 제어단계 구조로 표현한다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "주로 화살표를 사용하여 논리적 제어구조 흐름을 표현한다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "조건이 복잡하게 있는 것의 처리를 시각적으로 명확히 설명하는데 적합하다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-040",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 40,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 Java 프로그램이 실행되었을 때의 결과는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "0"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "4"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "5"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "7"
+      }
+    ],
+    "passages": [
+      {
+        "type": "text",
+        "content": "public class Test {\n  public static void main(String[] args) {\n    int x = 7, y = 0;\n    while(x-- > 0) {\n      if (x%3 == 0)\n        continue;\n      y++;\n    }\n    System.out.print(y);\n  }\n}"
+      },
+      {
+        "type": "code",
+        "src": "assets\\upload_1756304948635\\q-2024-ii-040\\code1.txt",
+        "language": "java"
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": true,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-045",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 45,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "DBMS의 필수 기능에 해당하지 않는 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "정의 기능(Definition Facility)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "조작 기능(Manipulation Facility)"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "제어 기능(Control Facility)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "회복 기능(Recovery Facility)"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-046",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 46,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "일반적인 데이터 모델의 3가지 구성 요소로 옳은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "구조, 연산, 도메인"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "데이터사전, 연산, 관계이론"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "구조, 연산, 제약조건"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "관계이론, 구조, 스키마"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-047",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 47,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "JOIN 조건이 '=' 조건이 아닌 나머지 비교 연산자를 사용하는 JOIN 방법은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "EQUI JOIN"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "NON-EQUI JOIN"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "SELF JOIN"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "CROSS JOIN"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-048",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 48,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "관계 데이터 모델에서 릴레이션의 특성으로 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "각 릴레이션에는 똑같은 튜플이 중복 저장될 수 있다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "각 릴레이션의 표현형 튜플 사이에는 순서가 없다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "한 릴레이션을 구성하는 애트리뷰트 사이에는 순서가 없다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "각 튜플은 유일한 식별자이다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-049",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 49,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "SQL의 조작문 유형으로 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "INSERT ~ FROM ~ SET ~"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "SELECT ~ FROM ~ WHERE ~"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "DELETE ~ FROM ~ WHERE ~"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "UPDATE ~ SET ~ WHERE"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-050",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 50,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "한 릴레이션 내의 속성들의 집합으로 구성된 키로서, 릴레이션을 구성하는 모든 튜플에 대해 유일성을 만족시키지만 최소성을 만족시키지 못하는 키(Key)는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "슈퍼키"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "대체키"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "기본키"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "외래키"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-051",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 51,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "후위 표기식이 다음과 같을 때 연산 결과는?\n3 4 * 5 6 + +"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "42"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "210"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "360"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "80"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": true,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-052",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 52,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "명령어 의해 수행된 결과를 실제 물리적 디스크로 저장하고, 데이터베이스 조작 작업이 정상적으로 완료되었음을 관리자에게 알려주는 데이터 제어어는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "ROLLBACK"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "REVOKE"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "COMMIT"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "GRANT"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-053",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 53,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "연결 리스트(Linked List)에 대한 설명으로 가장 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "노드의 삽입이나 삭제가 쉽다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "노드들이 포인터로 연결되어 검색이 빠르다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "연결 리스트는 포인터(Pointer)를 위한 추가 공간이 필요하다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "연결 리스트 중에서 중간 노드 연결이 끊어지면 그 다음 노드를 찾기 힘들다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-054",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 54,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "시스템 카탈로그에 대한 설명으로 옳지 않은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "시스템 자체에 관한 있는 다양한 객체에 관한 정보를 포함하는 시스템 데이터베이스이다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "카탈로그들이 생성된 자료 사전에 저장되기 때문에, 응용 의 미드는 자료 사전이라고 한다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "무결성 확보를 위하여 일반 사용자는 내용을 검색할 수 없다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "기본 테이블, 뷰, 인덱스, 패키지, 접근 권한 등의 정보를 저장한다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-055",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 55,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "릴레이션에서 속성의 수와 튜플의 수를 의미하는 것으로 순서대로 옳게 짝지어진 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "CARDINALITY, DEGREE"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "DOMAIN, DEGREE"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "DEGREE, CARDINALITY"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "DEGREE, DOMAIN"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-056",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 56,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 그림에서 트리의 Degree와 터미널 노드의 수는?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "트리의 Degree : 4, 터미널 노드 : 4"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "트리의 Degree : 2, 터미널 노드 : 4"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "트리의 Degree : 2, 터미널 노드 : 5"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "트리의 Degree : 2, 터미널 노드 : 8"
+      }
+    ],
+    "passages": [
+      {
+        "type": "image",
+        "src": "assets\\upload_1756304948635\\q-2024-ii-056\\img1.png",
+        "description": "트리 다이어그램"
+      }
+    ],
+    "features": {
+      "has_image": true,
+      "has_table": false,
+      "has_code": false,
+      "diagram": "tree"
+    }
+  },
+  {
+    "qid": "q-2024-ii-057",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 57,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "제2차 정규형에서 제3차 정규형이 되기 위한 조건은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "결정자가 후보키가 아닌 함수 종속 제거"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "부분 함수 종속 제거"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "다치 종속 제거"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "이행적 함수 종속 제거"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-058",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 58,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 SQL문에서 DISTINCT의 의미는?\nSELECT DISTINCT DEPT FROM STUDENT;"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "검색 결과에서 레코드의 중복 제거"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "검색 결과의 정렬"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "검색 결과를 순서대로 정렬"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "DEPT의 처음 레코드만 검색"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": true,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-059",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 59,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "STUDENT 테이블은 50개의 튜플이 정의되어 있으며, 'S-AGE' 열의 값은 정수 값으로 되어 있다. 'S-AGE' 값이 10인 튜플이 10개, 19인 튜플이 35개, 20인 튜플이 5개일 경우, 다음 두 SQL 문의 실행 결과 값은 순서대로 옳게 나타낸 것은?\nSELECT DISTINCT S-AGE FROM STUDENT;\nSELECT DISTINCT S-AGE FROM STUDENT WHERE S-AGE > 10;"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "50, 40"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "50, 5"
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "3, 1"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "3, 5"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": true,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-060",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 60,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "개체 무결성에 대한 설명으로 옳은 것은?"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "주어진 속성 값이 정의된 도메인에 속한 값이어야 한다는 규정이다."
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "외래키 값은 Null이거나 참조 릴레이션의 기본키 값과 동일해야 한다는 규정이다."
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "속성 값들이 사용자가 정의한 제약 조건에 만족해야 한다는 규정이다."
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "기본 테이블의 기본키를 구성하는 어떤 속성도 Null 값이나 중복값을 가질 수 없다는 규정이다."
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  }
+]

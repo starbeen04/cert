@@ -1,0 +1,622 @@
+<template>
+  <div class="upload-view">
+    <div class="page-header">
+      <h1 class="page-title">PDF 업로드</h1>
+      <p class="page-description">자격증 PDF를 업로드하여 AI 처리 및 학습 자료 생성</p>
+    </div>
+
+    <el-row :gutter="20">
+      <!-- Upload Form -->
+      <el-col :xs="24" :lg="12">
+        <el-card class="upload-card">
+          <template #header>
+            <span class="card-title">자격증 업로드</span>
+          </template>
+          
+          <el-form
+            ref="uploadFormRef"
+            :model="uploadForm"
+            :rules="uploadRules"
+            label-width="120px"
+          >
+            <el-form-item label="자격증 선택" prop="certificate_id" required>
+              <el-select
+                v-model="uploadForm.certificate_id"
+                placeholder="자격증을 선택하세요"
+                style="width: 100%"
+                @focus="loadCertificates"
+              >
+                <el-option
+                  v-for="cert in availableCertificates"
+                  :key="cert.id"
+                  :label="cert.name"
+                  :value="cert.id"
+                >
+                  <span style="float: left">{{ cert.name }}</span>
+                  <span style="float: right; color: #8492a6; font-size: 13px">
+                    {{ cert.category }}
+                  </span>
+                </el-option>
+              </el-select>
+            </el-form-item>
+
+            <el-form-item label="파일 유형" prop="file_type" required>
+              <el-radio-group v-model="uploadForm.file_type">
+                <el-radio value="questions">기출문제</el-radio>
+                <el-radio value="study_material">학습자료</el-radio>
+                <el-radio value="both">문제+자료</el-radio>
+              </el-radio-group>
+            </el-form-item>
+
+            <el-form-item label="파일 이름" prop="name">
+              <el-input
+                v-model="uploadForm.name"
+                placeholder="파일 이름을 입력하세요"
+                maxlength="200"
+                show-word-limit
+              />
+            </el-form-item>
+            
+            <el-form-item label="설명" prop="description">
+              <el-input
+                v-model="uploadForm.description"
+                type="textarea"
+                :rows="3"
+                placeholder="선택사항 설명"
+                maxlength="500"
+                show-word-limit
+              />
+            </el-form-item>
+            
+            <el-form-item label="PDF 파일" prop="file" required>
+              <el-upload
+                ref="uploadRef"
+                class="upload-dragger"
+                drag
+                :auto-upload="false"
+                :show-file-list="true"
+                :limit="1"
+                accept=".pdf"
+                :on-change="handleFileChange"
+                :on-remove="handleFileRemove"
+                :on-exceed="handleExceed"
+              >
+                <el-icon class="el-icon--upload"><UploadFilled /></el-icon>
+                <div class="el-upload__text">
+                  PDF 파일을 여기에 끌어다 놓거나 <em>클릭하여 업로드</em>
+                </div>
+                <template #tip>
+                  <div class="el-upload__tip">
+                    PDF 파일만 가능, 최대 크기 50MB
+                  </div>
+                </template>
+              </el-upload>
+            </el-form-item>
+            
+            <el-form-item>
+              <el-button
+                type="primary"
+                size="large"
+                :loading="certificatesStore.isUploading"
+                :disabled="!selectedFile"
+                @click="handleUpload"
+                class="upload-btn"
+              >
+                <el-icon><Upload /></el-icon>
+                {{ certificatesStore.isUploading ? '업로드 중...' : '자격증 업로드' }}
+              </el-button>
+            </el-form-item>
+          </el-form>
+          
+          <!-- Upload Progress -->
+          <div v-if="certificatesStore.isUploading" class="upload-progress">
+            <el-progress
+              :percentage="certificatesStore.uploadProgress"
+              :status="certificatesStore.uploadProgress === 100 ? 'success' : undefined"
+            />
+            <p class="progress-text">
+              {{ selectedFile?.name }} 업로드 중...
+            </p>
+          </div>
+        </el-card>
+      </el-col>
+      
+      <!-- Upload Guidelines -->
+      <el-col :xs="24" :lg="12">
+        <el-card class="guidelines-card">
+          <template #header>
+            <span class="card-title">업로드 가이드라인</span>
+          </template>
+          
+          <div class="guidelines-content">
+            <div class="guideline-item">
+              <el-icon class="guideline-icon" color="#67c23a"><Check /></el-icon>
+              <div>
+                <h4>지원 형식</h4>
+                <p>처리를 위해 PDF 파일만 지원됩니다</p>
+              </div>
+            </div>
+            
+            <div class="guideline-item">
+              <el-icon class="guideline-icon" color="#409eff"><DataBoard /></el-icon>
+              <div>
+                <h4>파일 크기 제한</h4>
+                <p>업로드당 최대 파일 크기는 50MB입니다</p>
+              </div>
+            </div>
+            
+            <div class="guideline-item">
+              <el-icon class="guideline-icon" color="#e6a23c"><Document /></el-icon>
+              <div>
+                <h4>콘텐츠 품질</h4>
+                <p>최상의 AI 처리 결과를 위해 PDF에 명확하고 읽기 쉬운 텍스트가 포함되어 있는지 확인하세요</p>
+              </div>
+            </div>
+            
+            <div class="guideline-item">
+              <el-icon class="guideline-icon" color="#f56c6c"><Warning /></el-icon>
+              <div>
+                <h4>처리 시간</h4>
+                <p>AI 처리는 일반적으로 파일 크기와 복잡성에 따라 2-10분이 소요됩니다</p>
+              </div>
+            </div>
+          </div>
+          
+          <el-divider />
+          
+          <div class="features-section">
+            <h3>업로드 후 무엇이 일어나나요?</h3>
+            <el-steps direction="vertical" :active="1">
+              <el-step title="파일 업로드" description="PDF가 안전하게 서버에 업로드됩니다" />
+              <el-step title="텍스트 추출" description="AI가 PDF에서 텍스트 내용을 추출하고 분석합니다" />
+              <el-step title="콘텐츠 처리" description="고급 AI가 학습 자료, 문제, 요약을 생성합니다" />
+              <el-step title="자료 생성" description="포괄적인 학습 자료가 생성되어 제공됩니다" />
+            </el-steps>
+          </div>
+        </el-card>
+      </el-col>
+    </el-row>
+
+    <!-- Recent Uploads -->
+    <el-card class="recent-uploads-card">
+      <template #header>
+        <div class="card-header">
+          <span class="card-title">최근 업로드</span>
+          <el-button type="text" :icon="Refresh" @click="refreshRecentUploads">
+            새로고침
+          </el-button>
+        </div>
+      </template>
+      
+      <div v-loading="loadingRecent" class="recent-uploads-list">
+        <div
+          v-for="upload in recentUploads"
+          :key="upload.id"
+          class="upload-item"
+          @click="viewCertificate(upload)"
+        >
+          <div class="upload-icon">
+            <el-icon size="20"><Document /></el-icon>
+          </div>
+          <div class="upload-info">
+            <div class="upload-name">{{ upload.name }}</div>
+            <div class="upload-meta">
+              {{ formatFileSize(upload.file_size) }} • {{ formatRelativeTime(upload.upload_date) }}
+            </div>
+          </div>
+          <div class="upload-status">
+            <el-tag
+              :type="upload.processed ? 'success' : 'warning'"
+              size="small"
+            >
+              {{ upload.processed ? '처리됨' : '처리 중' }}
+            </el-tag>
+          </div>
+          <div class="upload-actions">
+            <el-button type="text" size="small" :icon="View">
+              보기
+            </el-button>
+          </div>
+        </div>
+        
+        <el-empty
+          v-if="recentUploads.length === 0 && !loadingRecent"
+          description="최근 업로드가 없습니다"
+          :image-size="60"
+        />
+      </div>
+    </el-card>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { ref, reactive, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
+import { ElMessage, type FormInstance, type FormRules, type UploadFile, type UploadFiles, type UploadInstance } from 'element-plus'
+import {
+  UploadFilled,
+  Upload,
+  Check,
+  DataBoard,
+  Document,
+  Warning,
+  Refresh,
+  View,
+} from '@element-plus/icons-vue'
+import { useCertificatesStore } from '@/stores/certificates'
+import type { Certificate, CertificateCreate } from '@/types'
+import { formatFileSize, formatRelativeTime } from '@/utils/format'
+
+const router = useRouter()
+const certificatesStore = useCertificatesStore()
+
+// Form refs
+const uploadFormRef = ref<FormInstance>()
+const uploadRef = ref<UploadInstance>()
+
+// State
+const selectedFile = ref<File | null>(null)
+const loadingRecent = ref(false)
+const recentUploads = ref<Certificate[]>([])
+const availableCertificates = ref<any[]>([])
+
+// Form data
+const uploadForm = reactive({
+  name: '',
+  certificate_id: '',
+  file_type: 'questions', // 'questions', 'study_material', 'both'
+  description: '',
+})
+
+// Form validation rules
+const uploadRules: FormRules = {
+  name: [
+    { required: true, message: '파일 이름을 입력하세요', trigger: 'blur' },
+    { min: 3, max: 200, message: '길이는 3자에서 200자 사이여야 합니다', trigger: 'blur' },
+  ],
+  certificate_id: [
+    { required: true, message: '자격증을 선택하세요', trigger: 'change' },
+  ],
+  file_type: [
+    { required: true, message: '파일 유형을 선택하세요', trigger: 'change' },
+  ],
+}
+
+// Methods
+const handleFileChange = (file: UploadFile, files: UploadFiles) => {
+  // Validate file type
+  if (!file.name.toLowerCase().endsWith('.pdf')) {
+    ElMessage.error('PDF 파일만 허용됩니다')
+    uploadRef.value?.clearFiles()
+    return
+  }
+  
+  // Validate file size (50MB)
+  const maxSize = 50 * 1024 * 1024
+  if (file.size && file.size > maxSize) {
+    ElMessage.error('파일 크기는 50MB를 초과할 수 없습니다')
+    uploadRef.value?.clearFiles()
+    return
+  }
+  
+  selectedFile.value = file.raw as File
+  
+  // Auto-fill name if empty
+  if (!uploadForm.name && file.name) {
+    uploadForm.name = file.name.replace('.pdf', '').replace(/[_-]/g, ' ')
+  }
+}
+
+const handleFileRemove = () => {
+  selectedFile.value = null
+}
+
+const handleExceed = () => {
+  ElMessage.warning('한 번에 하나의 파일만 업로드할 수 있습니다')
+}
+
+const handleUpload = async () => {
+  if (!uploadFormRef.value || !selectedFile.value) return
+  
+  try {
+    await uploadFormRef.value.validate()
+    
+    await certificatesStore.uploadCertificate(selectedFile.value, uploadForm)
+    
+    ElMessage.success('자격증이 성공적으로 업로드되었습니다!')
+    
+    // Reset form
+    resetForm()
+    
+    // Refresh recent uploads
+    await fetchRecentUploads()
+    
+    ElMessage.info('처리가 자동으로 시작됩니다. 자격증 섹션에서 진행 상황을 모니터링할 수 있습니다.')
+  } catch (error) {
+console.error("Upload failed:", error);    console.error("Error details:", error.response?.data);    console.error("Error status:", error.response?.status);    console.error("Full error object:", JSON.stringify(error, null, 2));
+    ElMessage.error('자격증 업로드에 실패했습니다')
+  }
+}
+
+const resetForm = () => {
+  uploadForm.name = ''
+  uploadForm.certificate_id = ''
+  uploadForm.file_type = 'questions'
+  uploadForm.description = ''
+  selectedFile.value = null
+  uploadRef.value?.clearFiles()
+  uploadFormRef.value?.resetFields()
+}
+
+const viewCertificate = (certificate: Certificate) => {
+  router.push(`/certificates/${certificate.id}`)
+}
+
+const fetchRecentUploads = async () => {
+  try {
+    loadingRecent.value = true
+    
+    // Fetch recent uploads from the store
+    const files = await certificatesStore.fetchUploadedFiles()
+    recentUploads.value = files.slice(0, 5).map(file => ({
+      id: file.filename,
+      name: file.filename.replace(/^\d{8}_\d{6}_[a-f0-9]{8}_/, ''),
+      file_size: file.size,
+      upload_date: file.uploaded_at,
+      processed: false
+    }))
+  } catch (error) {
+    console.error('Failed to fetch recent uploads:', error)
+  } finally {
+    loadingRecent.value = false
+  }
+}
+
+const refreshRecentUploads = () => {
+  fetchRecentUploads()
+}
+
+const loadCertificates = async () => {
+  try {
+    availableCertificates.value = await certificatesStore.fetchCertificatesInfo()
+  } catch (error) {
+    console.error('Failed to load certificates:', error)
+  }
+}
+
+// Initialize
+onMounted(() => {
+  loadCertificates()
+  fetchRecentUploads()
+})
+</script>
+
+<style scoped>
+.upload-view {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.upload-card {
+  margin-bottom: 24px;
+  height: fit-content;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.upload-dragger {
+  width: 100%;
+}
+
+.upload-btn {
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+}
+
+.upload-progress {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.progress-text {
+  margin-top: 8px;
+  text-align: center;
+  color: #606266;
+  font-size: 14px;
+}
+
+.guidelines-card {
+  margin-bottom: 24px;
+}
+
+.guidelines-content {
+  margin-bottom: 24px;
+}
+
+.guideline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.guideline-icon {
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.guideline-item h4 {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.guideline-item p {
+  margin: 0;
+  font-size: 13px;
+  color: #606266;
+  line-height: 1.5;
+}
+
+.features-section h3 {
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+.recent-uploads-card {
+  margin-bottom: 24px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-uploads-list {
+  min-height: 200px;
+}
+
+.upload-item {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #f0f2f5;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.upload-item:hover {
+  background-color: #f8f9fa;
+}
+
+.upload-item:last-child {
+  border-bottom: none;
+}
+
+.upload-icon {
+  width: 40px;
+  height: 40px;
+  background: #f0f9ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #409eff;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.upload-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.upload-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.upload-meta {
+  font-size: 12px;
+  color: #7f8c8d;
+}
+
+.upload-status {
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.upload-actions {
+  flex-shrink: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .guideline-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .guideline-icon {
+    margin-top: 0;
+  }
+  
+  .upload-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .upload-info {
+    width: 100%;
+  }
+  
+  .upload-name {
+    white-space: normal;
+  }
+  
+  .upload-status,
+  .upload-actions {
+    align-self: flex-end;
+  }
+}
+
+/* Upload component overrides */
+:deep(.el-upload-dragger) {
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  width: 100%;
+  height: 140px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fafafa;
+  transition: border-color 0.3s;
+}
+
+:deep(.el-upload-dragger:hover) {
+  border-color: #409eff;
+}
+
+:deep(.el-upload-dragger.is-dragover) {
+  border-color: #409eff;
+  background-color: rgba(64, 158, 255, 0.06);
+}
+
+:deep(.el-icon--upload) {
+  font-size: 48px;
+  color: #c0c4cc;
+  margin-bottom: 16px;
+}
+
+:deep(.el-upload__text) {
+  color: #606266;
+  font-size: 14px;
+}
+
+:deep(.el-upload__text em) {
+  color: #409eff;
+  font-style: normal;
+}
+
+:deep(.el-upload__tip) {
+  font-size: 12px;
+  color: #909399;
+  margin-top: 8px;
+}
+</style>

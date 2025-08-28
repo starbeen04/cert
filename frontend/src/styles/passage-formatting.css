@@ -1,0 +1,362 @@
+/**
+ * Enhanced Passage Formatting Styles
+ * 표, 코드, 그림 등 에셋 렌더링을 위한 스타일
+ */
+
+/* 테이블 스타일 */
+.table-container {
+  margin: 16px 0;
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exam-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.exam-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.exam-table thead th {
+  padding: 12px 16px;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.exam-table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.exam-table tbody tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.exam-table tbody tr:hover {
+  background: #e3f2fd;
+}
+
+.exam-table tbody td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+}
+
+.exam-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* 반응형 테이블 */
+@media (max-width: 768px) {
+  .table-container {
+    font-size: 12px;
+  }
+  
+  .exam-table thead th,
+  .exam-table tbody td {
+    padding: 8px 12px;
+  }
+}
+
+/* 코드 블록 스타일 */
+.code-container {
+  margin: 16px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #1e1e1e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.code-container pre {
+  margin: 0;
+  padding: 20px;
+  overflow-x: auto;
+  background: transparent;
+  color: #d4d4d4;
+  font-family: 'Fira Code', 'Monaco', 'Cascadia Code', 'Consolas', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.code-container code {
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* 코드 언어별 색상 테마 */
+.language-javascript .code-container {
+  border-left: 4px solid #f7df1e;
+}
+
+.language-python .code-container {
+  border-left: 4px solid #3776ab;
+}
+
+.language-java .code-container {
+  border-left: 4px solid #ed8b00;
+}
+
+.language-cpp .code-container {
+  border-left: 4px solid #00599c;
+}
+
+.language-html .code-container {
+  border-left: 4px solid #e34c26;
+}
+
+.language-sql .code-container {
+  border-left: 4px solid #336791;
+}
+
+/* 그림/도표 컨테이너 */
+.figure-container {
+  margin: 20px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.figure-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #007bff;
+}
+
+.figure-header i {
+  margin-right: 8px;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.figure-title {
+  font-weight: 600;
+  color: #495057;
+  font-size: 16px;
+}
+
+.figure-content {
+  color: #6c757d;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* 선택지 기호 강화 */
+.choice-symbol {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+/* 지문 컨테이너 개선 */
+.passage-content {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #495057;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  margin: 16px 0;
+}
+
+.passage-content strong {
+  color: #212529;
+  font-weight: 600;
+}
+
+.passage-content em {
+  color: #6f42c1;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.passage-content u {
+  text-decoration: underline;
+  text-decoration-color: #007bff;
+  text-decoration-thickness: 2px;
+}
+
+/* 지문 태그들 */
+.passage-tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.passage-tags .el-tag {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.passage-tags .el-tag i {
+  font-size: 12px;
+}
+
+/* 수학식 스타일 (향후 확장용) */
+.math-expression {
+  display: inline-block;
+  margin: 0 4px;
+  padding: 2px 6px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-family: 'KaTeX_Main', 'Times New Roman', serif;
+  font-style: italic;
+}
+
+/* 문제 옵션 스타일 개선 */
+.question-options {
+  margin-top: 20px;
+}
+
+.options-label {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 12px;
+  gap: 6px;
+}
+
+.option-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.option-item:hover {
+  background: #e3f2fd;
+  border-color: #2196f3;
+}
+
+.option-item.correct-option {
+  background: #e8f5e8;
+  border-color: #4caf50;
+}
+
+.option-marker {
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+.option-text {
+  flex: 1;
+  line-height: 1.6;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .passage-content {
+    padding: 16px;
+    font-size: 13px;
+  }
+  
+  .figure-container {
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  .code-container pre {
+    padding: 16px;
+    font-size: 13px;
+  }
+  
+  .choice-symbol {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 11px;
+  }
+  
+  .option-item {
+    padding: 6px 10px;
+  }
+}
+
+/* 다크 모드 지원 (향후 확장용) */
+@media (prefers-color-scheme: dark) {
+  .exam-table {
+    background: #2d3748;
+    color: #e2e8f0;
+  }
+  
+  .exam-table thead {
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+  }
+  
+  .exam-table tbody tr:nth-child(even) {
+    background: #374151;
+  }
+  
+  .passage-content {
+    background: #2d3748;
+    color: #e2e8f0;
+    border-color: #4a5568;
+  }
+  
+  .figure-container {
+    background: #374151;
+    border-color: #4a5568;
+  }
+  
+  .option-item {
+    background: #374151;
+    border-color: #4a5568;
+    color: #e2e8f0;
+  }
+}
+
+/* 인쇄 스타일 */
+@media print {
+  .table-container,
+  .code-container,
+  .figure-container {
+    box-shadow: none;
+    border: 1px solid #000;
+    break-inside: avoid;
+  }
+  
+  .exam-table thead {
+    background: #f0f0f0 !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  
+  .code-container {
+    background: #f8f9fa !important;
+  }
+  
+  .code-container pre {
+    color: #000 !important;
+  }
+}

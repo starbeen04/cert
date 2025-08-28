@@ -1,0 +1,2619 @@
+[
+  {
+    "qid": "q-2024-ii-001",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 1,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "행위 다이어그램의 종류 중 다음 설명에 해당하는 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-002",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 2,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "애자일 개발 방법론에 해당하지 않는 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-003",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 3,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다이어그램에 대한 설명으로 옳지 않은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-004",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 4,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 검사의 기법 중 종류가 다른 하나는 무엇인가"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-005",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 5,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "개발 단계에 따른 애플리케이션 테스트에 속하지 않는 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "통합 테스트"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "구조 테스트"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-006",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 6,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "3"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "7.2"
+      }
+    ],
+    "passages": [
+      {
+        "type": "table",
+        "src": "assets\\upload_1756303363508\\q-2024-ii-006\\tbl1.csv",
+        "description": "FCFS 스케줄링 표"
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": true,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-009",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 9,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "4"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-007",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 7,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "Process의 가지 상태에 해당하지 않는 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "Ready"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "Running"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-008",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 8,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "네트워크 관련 신기술에 대한 설명으로 옳지 않은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-009",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 9,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "공통된 속성과 연산을 갖는 객체의 집합으로 객체의 일반적인"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "객체(Object)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "캡슐화(Encapsulation)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-010",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 10,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 괄호에 들어갈 알맞은 용어는"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "서브 클래스"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "추상 클래스"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-011",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 11,
+    "page_span": [
+      1
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "결합의 정도가 자료 결합도보다 강하고 제어 결합도보다 약하"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-012",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 12,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "디스크 대기 큐에 다음과 같은 순서왼쪽부터 먼저 도착한 순서임 로"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "50"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "105"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-013",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 13,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "동기식"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "베이스밴드식"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-014",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 14,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "Instance"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "Message"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-015",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 15,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "image",
+        "content": "",
+        "src": "assets\\upload_1756303363508\\q-2024-ii-015\\c1.png"
+      },
+      {
+        "no": 2,
+        "type": "image",
+        "content": "",
+        "src": "assets\\upload_1756303363508\\q-2024-ii-015\\c2.png"
+      },
+      {
+        "no": 3,
+        "type": "image",
+        "content": "",
+        "src": "assets\\upload_1756303363508\\q-2024-ii-015\\c3.png"
+      },
+      {
+        "no": 4,
+        "type": "image",
+        "content": "",
+        "src": "assets\\upload_1756303363508\\q-2024-ii-015\\c4.png"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": true,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-016",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 16,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "오픈 소스 기반 분산 컴퓨팅 플랫폼인 아파치 하둡"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-017",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 17,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "브리지(Bridge)"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "어댑터(Adapter)"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-018",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 18,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "OSI 7"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "물리 계층"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "응용 계층"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-019",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 19,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "HIPO의 가지 패키지가 아닌 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-020",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "정보시스템 기반 기술",
+    "number": 20,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-021",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 21,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-022",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 22,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "프레임워크의 특성에 대한 설명으로 옳지 않은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-023",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 23,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "Module"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-024",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 24,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "0"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "2"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [
+      {
+        "type": "code",
+        "src": "assets\\upload_1756303363508\\q-2024-ii-024\\code1.txt",
+        "language": "java"
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": true,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-025",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 25,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "조건이 참인지 거짓인지 판단하고자 할 때 사용하는 데이터 타입은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-026",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 26,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "캡슐화 추상화 상속성 등의 특징을 갖는 객체지향 언어는"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "C"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "COBOL"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-027",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 27,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "공통 모듈에 대한 명세 기법 중 기능에 대한 요구사항의 출처"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "추적성"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "완전성"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-028",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 28,
+    "page_span": [
+      2
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "gets( )"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "puts( )"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": "putchar( )"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-029",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 29,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "fscanf"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "fopen"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-030",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 30,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 중 빌드 도구가 아닌 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "Zeplin"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "Maven"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-031",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 31,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "객체지향 프로그래밍 언어에 대한 설명으로 옳지 않은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-032",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 32,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "웹 서버"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "HTTP/HTTPS"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "대역폭 제한"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-033",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 33,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "a = 0, sum = 0"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "a = 9, sum = 45"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [
+      {
+        "type": "code",
+        "src": "assets\\upload_1756303363508\\q-2024-ii-033\\code1.txt",
+        "language": "java"
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": true,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-034",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 34,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-035",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 35,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 중 스크립트 언어에 대한 설명으로 옳지 않은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-036",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 36,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "다음 중 언어의 변수명 작성에 대한 설명으로 가장 옳지 않은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-037",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 37,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-038",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 38,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "C"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-039",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 39,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "N-S(Nassi-Schneiderman) chart에 대한 설명으로 거리가 먼 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-040",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "프로그래밍 언어 활용",
+    "number": 40,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "0"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "5"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [
+      {
+        "type": "code",
+        "src": "assets\\upload_1756303363508\\q-2024-ii-040\\code1.txt",
+        "language": "java"
+      }
+    ],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": true,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-041",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 41,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "3 8 4 9 7"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "3 4 7 9 8"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-042",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 42,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "D, B, C, A"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "C, D, A, B"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-043",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 43,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "데이터베이스 설계 단계 중 논리적 설계 단계에 해당하는 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-044",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 44,
+    "page_span": [
+      3
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "데이터베이스 설계 단계 중 가장 먼저 수행되는 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "논리적 설계 단계"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": "개념적 설계 단계"
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-045",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 45,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "DBMS의 필수 기능에 해당하지 않는 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-046",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 46,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "일반적인 데이터 모델의 가지 구성 요소로 옳은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-047",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 47,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "JOIN"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "EQUI JOIN"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "SELF JOIN"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-048",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 48,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "관계 데이터 모델에서 릴레이션의 특성으로 옳지 않은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-049",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 49,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "SQL의 조작문 유형으로 옳지 않은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-050",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 50,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "한 릴레이션 내의 속성들의 집합으로 구성된 키로서 릴레이션을"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "후보키"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "슈퍼키"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-051",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 51,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "후위 표기식이 다음과 같을 때 연산 결과는"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "42"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "360"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-052",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 52,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "명령에 의해 수행된 결과를 실제 물리적 디스크로 저장하고 데이터"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "ROLLBACK"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "COMMIT"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-053",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 53,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-054",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 54,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "시스템 카탈로그에 대한 설명으로 옳지 않은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-055",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 55,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-056",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 56,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [
+      {
+        "type": "image",
+        "src": "assets\\upload_1756303363508\\q-2024-ii-056\\img1.png",
+        "description": "트리 다이어그램"
+      }
+    ],
+    "features": {
+      "has_image": true,
+      "has_table": false,
+      "has_code": false,
+      "diagram": "tree"
+    }
+  },
+  {
+    "qid": "q-2024-ii-057",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 57,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "제 차 정규형에서 제 차 정규형이 되기 위한 조건은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-058",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 58,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": ""
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-059",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 59,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "STUDENT"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": "50, 40"
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": "3, 1"
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  },
+  {
+    "qid": "q-2024-ii-060",
+    "exam": "정보처리산업기사 필기",
+    "round": "2024년 2회",
+    "subject": "데이터베이스 활용",
+    "number": 60,
+    "page_span": [
+      4
+    ],
+    "split_across_pages": false,
+    "stem": {
+      "text": "개체 무결성에 대한 설명으로 옳은 것은"
+    },
+    "choices": [
+      {
+        "no": 1,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 2,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 3,
+        "type": "text",
+        "content": ""
+      },
+      {
+        "no": 4,
+        "type": "text",
+        "content": ""
+      }
+    ],
+    "passages": [],
+    "features": {
+      "has_image": false,
+      "has_table": false,
+      "has_code": false,
+      "diagram": null
+    }
+  }
+]
